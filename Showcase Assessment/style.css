@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: brown;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+a.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+a.download-button:hover {
+  background-color: #0056b3;
+}
+.button-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Optional spacing */
+}
+.resume-content {
+  text-align: center; /* Centers paragraph and inline elements */
+  margin-top: 20px;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+
+nav {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+.portfolio-links {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.portfolio-links a {
+  text-decoration: none;
+  color: #007bff;
+  margin: 0 10px;
+}
+
+.portfolio-links a:hover {
+  text-decoration: underline;
+}
+
+
+section {
+  padding: 30px;
+}
+
+.project {
+  background-color: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #1e1e1e;
+  color: white;
+}
